@@ -1,9 +1,9 @@
 {
-  "id": "https://example.org/colour/senfgelb",
+  "id": "https://example.org/colour/yellow",
   "type": "Concept",
   "prefLabel": {
-    "en": "mustard yellow",
-    "de": "senfgelb"
+    "en": "yellow",
+    "de": "gelb"
   },
   "inScheme": {
     "id": "https://example.org/colour/",
