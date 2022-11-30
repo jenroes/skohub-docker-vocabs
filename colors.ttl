@@ -9,7 +9,7 @@ colour: a skos:ConceptScheme ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept colour:violet ;
-    skos:hasTopConcept colour:senfgelb .
+    skos:hasTopConcept colour:senfgelb, colour:green .
 
 colour:violet a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en ;
@@ -18,4 +18,8 @@ colour:violet a skos:Concept ;
 
 colour:senfgelb a skos:Concept ;
     skos:prefLabel "senfgelb"@de, "mustard yellow"@en ;
+    skos:topConceptOf colour: .
+
+colour:green a skos:Concept ;
+    skos:prefLabel "Grün"@de, "green"@en ;
     skos:topConceptOf colour: .
